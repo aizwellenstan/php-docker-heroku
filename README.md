@@ -1,5 +1,9 @@
 ## :construction_worker: ローカルでの起動方法
 
+```
+sudo sh ./heroku.sh
+```
+
 1. docker-composeとLaravel用の `.env`を それぞれの`.env.example`を基に作成します。
 
     Laravel用の `.env`のAPP_KEYは4で作成します。
