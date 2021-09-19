@@ -1,0 +1,12 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~materialize-css/sass/materialize';
+
+// From Pages Folder
+@import 'resources/sass/pages/layouts.app.scss';
+@import 'resources/sass/pages/timeline.scss';

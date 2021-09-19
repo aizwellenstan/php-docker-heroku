@@ -1,0 +1,67 @@
+// layouts.app.cssに適用
+
+html,body{
+    min-height:100vh;
+}
+
+main{
+    min-height: 80vh;
+    overflow-x: hidden
+}
+
+.main-bg{
+    background-color: $body-bg;
+}
+
+.main-color{
+    background-color: $main;
+}
+
+.footer{
+    background-color: $accent-light;
+}
+
+.font{
+    font-family: 'Kosugi Maru', sans-serif;
+    color:#333;
+}
+
+// ナビゲーションバー横幅調整
+#app nav li {
+    min-width: 155px;
+}
+// マテリアルアイコン
+// 位置調整
+.material-icons{
+    display: inline-flex;
+    vertical-align: middle;
+}
+.material-icons.large{
+    font-size: 40px;
+}
+
+// お気に入りボタン
+.favorite{
+    color: #ffab40;
+}
+.off{
+    display: none;
+}
+
+// ページネーション
+.pagination .active{
+    background-color: $main !important;
+}
+
+// プロフィール画像サイズ調整
+// 個人プロフィール表示
+.main-profile{
+    max-width:300px;
+    max-height:300px;
+    height:auto;
+}
+// サムネイル
+.small-profile{
+    width:37px;
+    height:37px;
+}
