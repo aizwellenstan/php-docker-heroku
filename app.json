@@ -1,0 +1,15 @@
+{
+    "name": "Start on Heroku: PHP",
+    "description": "PHP Getting Started Example App",
+    "keywords": [
+      "getting-started",
+      "php",
+      "sample",
+      "example"
+    ],
+    "image": "heroku/php",
+    "mount_dir": "src/github.com/aizwellenstan/php-docker-heroku",
+    "website": "http://github.com/aizwellenstan/php-docker-heroku",
+    "repository": "http://github.com/aizwellenstan/php-docker-heroku"
+  }
+  
